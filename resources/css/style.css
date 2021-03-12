@@ -1,4 +1,43 @@
 body {
-    text-align: center;
+    color: white;
+    font-family: 'Gill Sans';
     background-color: black;
+    text-align: center;
+}
+
+h1 {
+    font-size: 45px;
+    font-weight: normal;
+    margin-top: 60px;
+}
+
+h2 {
+    font-weight: 300;
+    font-size: 42px;
+}
+
+p {
+    color: gray;
+    font-size: 21px;
+}
+
+video {
+    margin-top: 1%;
+}
+
+footer > p {
+    text-align: right;
+}
+.link {
+    position: relative;
+}
+
+.download {
+    color: black;
+    font-size: 17px;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    /*text-align: center;*/
+    transform: translate(-50%, -50%);
 }
