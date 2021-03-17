@@ -21,23 +21,24 @@ p {
     font-size: 21px;
 }
 
-video {
-    margin-top: 1%;
-}
-
 footer > p {
     text-align: right;
 }
-.link {
-    position: relative;
+
+div {
+    margin: 20px;
 }
 
-.download {
+.downloadLink {
     color: black;
-    font-size: 17px;
-    position: absolute;
-    top: 45%;
-    left: 50%;
-    /*text-align: center;*/
-    transform: translate(-50%, -50%);
+    border: 2px solid white;
+    padding: 7px 10px;
+    border-radius: 20px;
+    background-color: white;
+    text-decoration: none;
+}
+
+.downloadLink:hover {
+    color: white;
+    background-color: black;
 }
